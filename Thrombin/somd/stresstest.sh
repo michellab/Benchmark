@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in {0..2}
+for i in {0..$1}
 do
 mkdir out$i
 cd out$i
